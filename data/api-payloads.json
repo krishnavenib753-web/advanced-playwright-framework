@@ -1,0 +1,17 @@
+{
+  "createUser": {
+    "name": "Sarah Connor",
+    "job": "Lead QA Architect"
+  },
+  "updateUser": {
+    "name": "Sarah Connor",
+    "job": "Principal SDET"
+  },
+  "validAuth": {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+  },
+  "invalidAuth": {
+    "email": "invalid.user@example.com"
+  }
+}

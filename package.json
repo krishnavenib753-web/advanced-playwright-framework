@@ -1,0 +1,36 @@
+{
+  "name": "advanced-playwright-framework",
+  "version": "1.0.0",
+  "description": "Production-Grade Advanced Playwright Test Automation Framework with TypeScript: Page Object Model, Custom Fixtures, UI, API, Visual Regression, Accessibility (Axe-core), and GitHub Actions CI/CD",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui",
+    "test:api": "npx playwright test tests/api",
+    "test:visual": "npx playwright test tests/visual",
+    "test:visual:update": "npx playwright test tests/visual --update-snapshots",
+    "test:a11y": "npx playwright test tests/accessibility",
+    "test:all": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "api-testing",
+    "visual-regression",
+    "accessibility",
+    "axe-core",
+    "page-object-model",
+    "ci-cd",
+    "github-actions"
+  ],
+  "author": "krishnavenib753-web",
+  "license": "MIT",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "typescript": "^5.4.5"
+  }
+}
